@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANCTA MARIA COLLEGE</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+    <!--The Header starts here-->
+    <section class="header">
+<nav>
+    <img src="img/Logo3.jpg" alt="" srcset="">
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT US</a></li>
+            <li><a href="meet.html" class="current-page">ADMISSIONS</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1 style="padding: 100px 100px 20px 50px; text-align: center; color: white; font-size: 4em;">FORMING FREE AND FIRM PERSONALITY</h1>
+</section>
+<!--The header ends here-->
+
+<!-- Admissions starts here-->
+<section class="Meet"> 
+    <div class="container-fluid text-center" id="Meet">
+        <div class="row">
+            <div class="bacon">
+                <div class="col-md-6" style="margin-top: 20px;">
+                    <h1>ADMISSIONS</h1>
+                    <p>We form courageous minds that are free from the external
+                         influence and pressure of the young people. We focus on
+                          educational excellence and promote acts of personal and
+                           positive conviction. </p>
+                        <p> We give your child a wholistic formation of the 3Hs
+                            Head Heart and Hand</p>
+                            <p>Admission is open for entry into JSS1 only.</p>
+                    
+                </div>
+                <div class="col-md-6" style="margin-top: 20px;">
+                    <img src="img/admission open.png" alt="" width="70%">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Admissions ends here-->
+
+
+<!--FAQ-->
+<section class="Events">
+    <h1>FREQUENTLY ASKED QUESTIONS</h1>
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="bacon">
+                <div class="col-md-3" id="it" style="padding: 20px;">
+                    <h3>Does the School engage in any extra curricular activities?</h3> <br>
+                    <p style="line-height: 18px;">The school engages in Sports Activites every Friday</p>
+            </div>
+                <div class="col-md-3" id="it" style="padding: 20px;">
+                <h3>What time does the school resume and close each day?</h3> <br>
+                <p style="line-height: 18px;"> The School resumes by 7:30am and ends by 2:30pm</p>
+            </div>
+            <div class="col-md-3" id="it" style="padding: 20px;">
+                <h3>What items are the students allowed to bring to school?</h3> <br>
+                <p style="line-height: 18px;"> Students are allowed to bring School Books, Food and Snacks</p>
+            </div>
+            </div>
+        </div> 
+    </div>
+</section>
+<!--End FAQ-->
+
+<!-- Contact Us starts here-->
+  <section class="contact-us">
+    <h1>CONTACT US</h1> 
+    <div class="container-fluid text-center" id="contact">
+        <div class="row">
+            <div class="bacon">
+                <div class="col-md-6">
+                    <i class="fa fa-home"></i>
+                    <p>Oke Oyinbo Road, Elesekan Bus-stop <br>
+                    Bogije, Ibeju-Lekki, Lagos State Nigeria</p>  
+                
+                <i class="fa fa-phone"></i>
+                    <p>08037265586, 08037737641 <br> 
+                    Monday to Friday, 8am to 5pm</p>
+                
+                <i class="fa fa-envelope"></i>
+                    <p>sanctamariacollege@gmail.com <br>
+                        Send us an email
+                    </p> 
+                </div>
+                    
+                <div class="col-md-6">
+                    <form action="mailto:sanctamariacollege@gmail.com" method="post">
+                        <input type="text" name="name" placeholder="Enter your name" required><br><br>
+                        <input type="email" name="email" placeholder="Enter email address" required> <br><br>
+                        <input type="text" name="subject" placeholder="Enter your subject" required> <br><br>
+                        <textarea  cols="50" rows="8" name="message" placeholder="Write your messages here..." style="padding: 10px;" required></textarea><br><br>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+
+                    </form>
+                </div>
+            </div>
+        </div> 
+    </div>
+</section>
+<!-- Contact Us ends here-->
+
+<!--Footer starts here-->
+<footer>
+    <div class="fat">
+        <h4>Built by our team with <i class="fa fa-heart fa-1x"></i></h4>
+        <h4><a href="meet.html">FAQs</a></h4>
+        <h4><a href="#contact">Contact Us</a></h4>
+        
+    </div>
+    <p class="copy">Copyright &copy; 2023 SANCTA MARIA COLLEGE.</p>
+  </footer>
+  <!-- Footer ends here-->
+
+  <!-- JS starts here-->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+<!-- JS ends here -->
+
+</body>
+</html>
