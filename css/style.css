@@ -57,7 +57,7 @@ nav .fa{
 /* Header style ends here*/
 
 /* Responsive Header Style Starts Here*/
-@media(max-width: 500px){
+@media(max-width: 700px){
     .nav-links ul li{
         display: block;
     }
@@ -86,7 +86,7 @@ nav .fa{
         padding: 30px;
     }
     .Events h1{
-        font-size: 30px;
+        font-size: 20px;
         color: #000074;
     }
     .Tour h1{
@@ -94,6 +94,12 @@ nav .fa{
     }
     nav img{
         width: 30%;
+    }
+    .Events{
+        width: 100%;
+    }
+    .Tour{
+        width: 100%;
     }
 }
 /* Responsive Header Style Ends Here*/
