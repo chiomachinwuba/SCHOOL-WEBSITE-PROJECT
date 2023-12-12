@@ -200,6 +200,11 @@ nav .fa{
     border: 2px #000074 solid;
     padding: 10px 70px 10px 15px;
 }
+    #apply input{
+    border-radius: 2em;
+    border: 2px #000074 solid;
+    padding: 10px 70px 10px 15px;
+}
 .contact-us h1{
     text-align: center;
     color: #000074;
