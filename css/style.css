@@ -181,6 +181,9 @@ nav .fa{
 .About{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
+    #About h4{
+    line-height: 30px;
+  }
 /* For styling the about id ends here*/
 
 /* For styling contact us starts here*/
